@@ -1,16 +1,13 @@
-class Counter{
-  int _conuter=0;
+class Counter {
+  int _counter = 0;
 
-  int get count=>_conuter;
-
+  int get count => _counter;
 
   void incrementCounter() {
+    _counter++;
+  }
 
-      _conuter++;
-    // });
-  } void decrementCounter() {
-
-      _conuter--;
-    // });
+  void decrementCounter() {
+    _counter--;
   }
 }
