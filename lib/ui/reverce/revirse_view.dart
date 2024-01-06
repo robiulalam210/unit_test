@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 
-import '../../reviers/reviers_funcation.dart';
+import '../../reverse/reverse_funcation.dart';
 
 class RevierseView extends StatefulWidget {
   const RevierseView({super.key});
