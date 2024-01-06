@@ -3,6 +3,7 @@ import 'package:unit_test/ui/user_sceen/user_sceen.dart';
 
 import 'counter/counter.dart';
 import 'ui/counter_sceen/counter_seccen.dart';
+import 'ui/reverce/revirse_view.dart';
 
 void main() {
   runApp(const MyApp());
@@ -20,7 +21,7 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
       ),
-      home: const HomePageApi(title: 'Flutter Demo Home Page'),
+      home: RevierseView(),
     );
   }
 }
